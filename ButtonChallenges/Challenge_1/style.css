@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height :100vh
+}
+
+.container{
+    position: relative;
+      display: inline-block;
+
+
+
+
+ .btn{
+text-decoration:none;
+ padding :10px 20px;
+ background-color:#3498DB;
+ color:#fff
+}
+
+ .badge{
+    background-color:#4C4B4B;
+    border-radius:50%;
+    padding:5px 10px;
+    position:absolute;
+    top:-20px;
+    right:-10px
+   
+}
+
+/* 
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+  } */

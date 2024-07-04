@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh
+}
+
+
+.btn-text-two{
+    display:none;
+}
+
+.btn{
+    border-radius:25px;
+    border:none;
+    padding:20px 40px;
+    background-color:#192A56;
+    color:#fff;
+    box-shadow :0px 10px 25px #000;
+    text-transform :uppercase;
+    letter-spacing :3px
+    
+}

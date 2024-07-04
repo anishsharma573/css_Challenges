@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+
+
+
+body{
+    background: linear-gradient(0.25turn ,#0ee371, #25CCF7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:'Swashed','Sansita';
+  
+}
+
+.center{
+    position:relative;
+    background-color:#fff;
+    padding :40px 40px;
+    border-radius:5px
+}
+
+.center h1{
+    border-left:3px solid #25CCF7;
+    letter-spacing:2px;
+    margin-bottom:40px;
+    font-weight:600;
+    font-size:30px;
+    padding:4px
+}
+form{
+
+}
+.inputbox{
+    margin-bottom:30px;
+    position:relative;
+
+
+    
+}
+.inputbox span
+{
+    position:absolute;
+    left:10px;
+    top:7px;
+    font-size:12px;
+    
+}
+
+
+.inputbox input{
+    padding : 5px 40px;
+    border-radius:5px;
+}
+
+.inputbox input[type="button"]{
+ background-color:#3C40C6;
+ color:#fff;
+ font-size:14px;
+ border:none;
+cursor:pointer
+
+}

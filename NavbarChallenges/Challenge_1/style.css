@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    text-decoration:none;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-decoration:none;
+}
+
+nav{
+background-color:#242424;
+padding :10px 20px;
+border-radius:8px
+}
+
+.nav-item{
+    color:#A4B0BD;
+    margin-right:20px;
+    font-size:12px;
+    font-weight:600
+
+}
+
+
+.nav-item:hover{
+    color:#67E6DC
+}
